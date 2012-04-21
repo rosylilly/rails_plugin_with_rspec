@@ -15,6 +15,8 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+require 'rails_plugin_with_rspec'
+
 module SampleRailsApp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
